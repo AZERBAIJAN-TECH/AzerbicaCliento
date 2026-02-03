@@ -42,7 +42,7 @@ public class GunAimOverlay(
         if (!combatModeSystem.IsInCombatMode(player1))
             return;
 
-        if (!guns.TryGetGun(player1.Value, out _, out _))
+        if (!guns.TryGetGun(player1.Value, out _))
             return;
 
         var mouseScreenPos = input.MouseScreenPosition;
