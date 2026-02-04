@@ -8,7 +8,7 @@ ArabicaCliento, но в попытках починить и модифицир�
 Что бы запустить это, вам нужен [MarseyLoader](https://github.com/AZERBAIJAN-TECH/SGLoader) или [SGloader](https://github.com/AZERBAIJAN-TECH/SGLoader-V2)
 
 ## Установка
-1. Скачатйте последнюю версию [MarseyLoader](https://github.com/ValidHunters/Marseyloader/releases)/[SGloader](https://github.com/AZERBAIJAN-TECH/SGLoader-V2/releases)
+1. Скачатйте последнюю версию [MarseyLoader](https://github.com/AZERBAIJAN-TECH/SGLoader/releases)/[SGloader](https://github.com/AZERBAIJAN-TECH/SGLoader-V2/releases)
 2. Перейти в [релизы](https://github.com/AZERBAIJAN-TECH/AzerbicaCliento/releases).
 3. Скачивайте последнюю версию AzerbicaCliento (.dll).
 4. Поместите файл в папку Mods по пути `Marsey/Mods`.
