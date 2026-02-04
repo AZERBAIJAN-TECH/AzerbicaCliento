@@ -12,7 +12,7 @@
         <PanelContainer Name="WindowHeader" StyleClasses="windowHeader">
             <BoxContainer Orientation="Horizontal">
                 <Label Margin="5 0 0 0" HorizontalExpand="true" Name="TitleLabel" StyleIdentifier="foo" ClipText="True"
-                       Text="ArabicaWindow" VAlign="Center" FontColorOverride="#f1f1f1cc" />
+                       Text="AzerbicaWindow" VAlign="Center" FontColorOverride="#f1f1f1cc" />
                 <TextureButton Name="CloseButton" StyleClasses="windowCloseButton" VerticalAlignment="Center" />
             </BoxContainer>
         </PanelContainer>

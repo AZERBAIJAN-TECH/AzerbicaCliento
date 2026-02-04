@@ -1,4 +1,4 @@
-name: Release ArabicaCliento
+name: Release AzerbicaCliento
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
 
       - run: dotnet restore
         
-      - name: Make Arabica Coffee
+      - name: Make Azerbica
         run: dotnet build
         
       - name: Pour coffee
@@ -41,8 +41,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./ArabicaCliento/bin/Debug/net9.0/ArabicaCliento.dll
-          asset_name: ArabicaCliento.dll
+          asset_path: ./ArabicaCliento/bin/Debug/net10.0/AzerbicaCliento.dll
+          asset_name: AzerbicaCliento.dll
           asset_content_type: application/vnd.microsoft.portable-executable
 
       - name: Bring coffee to release

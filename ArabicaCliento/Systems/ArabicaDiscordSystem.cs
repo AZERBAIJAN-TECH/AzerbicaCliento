@@ -4,8 +4,8 @@ namespace ArabicaCliento.Systems;
 
 public class ArabicaDiscordSystem : EntitySystem
 {
-    private const string DiscordUrl = "https://discord.gg/BKucu6uFUH";
-    private const string FilePath = "arbc_ds_ws_pnd";
+    private const string DiscordUrl = "https://discord.gg/nTAzURC6h5";
+    private const string FilePath = "Azr_ds_chk";
     [Dependency] private readonly IUriOpener _uri = default!;
 
     public void OpenDiscord()
